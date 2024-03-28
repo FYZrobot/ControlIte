@@ -1,0 +1,9 @@
+%%% array of total D-H parameters 
+%%% ¡Ωz÷·º–Ω«£¨¡Ωz÷·æ‡¿Î£¨¡Ωx÷·º–Ω«£¨¡Ωx÷·æ‡¿Î
+function outp=DH_Array(qm)
+load CSof7DF 
+DH=[at0,0,qm(1)+qm0(1),d1;at1,0,qm(2)+qm0(2),d2;...
+    at2,0,qm(3)+qm0(3),d3;at3,h3,qm(4)+qm0(4),d4;...
+    at4,h4,qm(5)+qm0(5),d5;at5,0,qm(6)+qm0(6),d6;...
+    at6,0,qm(7)+qm0(7),d7];
+outp=DH;
